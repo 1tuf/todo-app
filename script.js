@@ -10,11 +10,6 @@ addBtn.addEventListener("click",()=>{
         taskList.appendChild(li);
         task.value="";
     }
-    // taskList.addEventListener("click",function(event){
-    //     if (event.target.classList.contains("delete-button")) {
-    //         event.target.parentElement.remove();
-    //     }
-    // })
 })
 taskList.addEventListener("click",function(event){
     if (event.target.classList.contains("delete-button")) {
